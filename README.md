@@ -6,6 +6,20 @@ These days there are many people such as college students, new parents, or low i
 
 ## Implementation
 
+## Script to download html from website
+
+wget \
+     -U "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)" \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --domains bogleheads.org \
+     --no-parent \
+         https://www.bogleheads.org/forum/
+  
+
 \*diagram\*
 
 
