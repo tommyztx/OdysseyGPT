@@ -51,7 +51,7 @@ def chatbot(input_text):
     response = index.query(input_text, response_mode="compact")
     return response.response
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your open API KEY'
 
 iface = gr.Interface(fn=chatbot,
                      inputs=gr.inputs.Textbox(lines=7, label="Ask your financial questions"),
